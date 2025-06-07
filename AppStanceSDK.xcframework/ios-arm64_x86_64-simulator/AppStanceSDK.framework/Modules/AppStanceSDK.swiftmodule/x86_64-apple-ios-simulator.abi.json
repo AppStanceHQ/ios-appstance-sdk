@@ -388,14 +388,14 @@
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/AppStanceSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1424,
+      "offset": 2620,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/AppStanceSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1696,
+      "offset": 2892,
       "length": 5,
       "value": "false"
     },
@@ -425,7 +425,7 @@
       "kind": "StringLiteral",
       "offset": 262,
       "length": 7,
-      "value": "\"0.6.1\""
+      "value": "\"0.6.3\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Constants.swift",
