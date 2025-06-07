@@ -1,0 +1,690 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AppStanceSDK",
+    "printedName": "AppStanceSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppStanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AdServices",
+        "printedName": "AdServices",
+        "declKind": "Import",
+        "moduleName": "AppStanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppStanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppStanceSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppStance",
+        "printedName": "AppStance",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(apiKey:enableStoreKitPurchaseMonitor:customUserID:fBAnonymousID:revenueCatUserID:debugLogs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AppStanceSDK0aB0C10initialize6apiKey29enableStoreKitPurchaseMonitor12customUserID011fBAnonymousN0010revenueCatmN09debugLogsySS_SbSSSgA2KSbtFZ",
+            "mangledName": "$s12AppStanceSDK0aB0C10initialize6apiKey29enableStoreKitPurchaseMonitor12customUserID011fBAnonymousN0010revenueCatmN09debugLogsySS_SbSSSgA2KSbtFZ",
+            "moduleName": "AppStanceSDK",
+            "static": true,
+            "objc_name": "initializeWithApiKey:enableStoreKitPurchaseMonitor:customUserID:fBAnonymousID:revenueCatUserID:debugLogs:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackExternalRevenueEvent",
+            "printedName": "trackExternalRevenueEvent(_:amount:currency:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AppStanceSDK0aB0C25trackExternalRevenueEvent_6amount8currencyySS_SdSStFZ",
+            "mangledName": "$s12AppStanceSDK0aB0C25trackExternalRevenueEvent_6amount8currencyySS_SdSStFZ",
+            "moduleName": "AppStanceSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackNonRevenueEventOnce",
+            "printedName": "trackNonRevenueEventOnce(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AppStanceSDK0aB0C24trackNonRevenueEventOnceyySSFZ",
+            "mangledName": "$s12AppStanceSDK0aB0C24trackNonRevenueEventOnceyySSFZ",
+            "moduleName": "AppStanceSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAppStanceUserID",
+            "printedName": "getAppStanceUserID()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AppStanceSDK0aB0C03getaB6UserIDSSyFZ",
+            "mangledName": "$s12AppStanceSDK0aB0C03getaB6UserIDSSyFZ",
+            "moduleName": "AppStanceSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRemoteConfigJSONString",
+            "printedName": "getRemoteConfigJSONString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AppStanceSDK0aB0C25getRemoteConfigJSONStringSSyFZ",
+            "mangledName": "$s12AppStanceSDK0aB0C25getRemoteConfigJSONStringSSyFZ",
+            "moduleName": "AppStanceSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12AppStanceSDK0aB0C",
+        "mangledName": "$s12AppStanceSDK0aB0C",
+        "moduleName": "AppStanceSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppStanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppStanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "AppStanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "AppStanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppStanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppStanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppStanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "AppStanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppStanceSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/AAAttributionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/AAAttributionManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 234,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/AppStanceSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 179,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/AppStanceSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 237,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/AppStanceSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 285,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/AppStanceSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 336,
+      "length": 9,
+      "value": "\"unknown\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/AppStanceSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1424,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/AppStanceSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1696,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/AppStanceSDKPurchaseEvent.swift",
+      "kind": "BooleanLiteral",
+      "offset": 283,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 122,
+      "length": 27,
+      "value": "\"https:\/\/sdk.appstance.io\/\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 201,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 262,
+      "length": 7,
+      "value": "\"0.6.0\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 323,
+      "length": 14,
+      "value": "\"AppStanceSDK\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 393,
+      "length": 26,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 1,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 418,
+      "length": 13,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 493,
+      "length": 45,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 20,
+      "value": "\"_purchases_migrated_\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 537,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Helpers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1642,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Helpers.swift",
+      "kind": "FloatLiteral",
+      "offset": 1671,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Logger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 113,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 7,
+      "value": "\"DEBUG\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
+      "length": 6,
+      "value": "\"INFO\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 9,
+      "value": "\"WARNING\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 337,
+      "length": 7,
+      "value": "\"ERROR\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/PurchaseEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 31,
+      "value": "\"com.appstance.purchaseTracker\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/PurchaseEvents.swift",
+      "kind": "Array",
+      "offset": 377,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/PurchaseEvents.swift",
+      "kind": "Array",
+      "offset": 441,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/PurchaseEvents.swift",
+      "kind": "Array",
+      "offset": 497,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 127,
+      "length": 19,
+      "value": "\"com.appstance.sdk\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 434,
+      "length": 105,
+      "value": "\"Failed to initialize UserDefaults with suite name: \""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 498,
+      "length": 1,
+      "value": "\". Falling back to standard UserDefaults.\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 22,
+      "value": "\"AppStanceSDK_api_key\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 796,
+      "length": 27,
+      "value": "\"AppStanceSDK_fisrt_launch\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 866,
+      "length": 37,
+      "value": "\"AppStanceSDK_fisrt_launch_timestamp\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 935,
+      "length": 27,
+      "value": "\"AppStanceSDK_user_uuid_v7\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 1001,
+      "length": 32,
+      "value": "\"AppStanceSDK_install_timestamp\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 1074,
+      "length": 34,
+      "value": "\"AppStanceSDK_sdk_initializations\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 1146,
+      "length": 30,
+      "value": "\"AppStanceSDK_purchase_events\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 1226,
+      "length": 41,
+      "value": "\"AppStanceSDK_tracked_non_revenue_events\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 1320,
+      "length": 22,
+      "value": "\"AppStanceSDK_f_i_o_d\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 1387,
+      "length": 22,
+      "value": "\"AppStanceSDK_f_i_o_a\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 1448,
+      "length": 32,
+      "value": "\"AppStanceSDK_remote_sdk_config\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1610,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9500,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11691,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12673,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13560,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

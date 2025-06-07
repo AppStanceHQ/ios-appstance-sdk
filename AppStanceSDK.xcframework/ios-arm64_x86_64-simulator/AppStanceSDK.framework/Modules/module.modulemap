@@ -1,0 +1,6 @@
+framework module AppStanceSDK {
+  umbrella header "AppStanceSDK.h"
+  export *
+
+  module * { export * }
+}

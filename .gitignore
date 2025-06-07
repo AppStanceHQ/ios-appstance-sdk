@@ -1,0 +1,41 @@
+
+/.idea
+*.zip
+llm_context.txt
+z-temp/
+backups
+temp.txt
+info.txt
+
+AppStanceSDK.xcodeproj
+AppStanceSDK/
+
+AppStanceSDKTests/
+
+z-private/
+TestApp
+
+temp_build/
+
+.swiftpm
+
+# Swift Package Manager build artifacts
+.build/
+.index-build/
+*.xcworkspace
+
+# Framework build outputs
+Library/
+
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
+build_xcframework.sh

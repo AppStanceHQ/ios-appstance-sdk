@@ -1,0 +1,22 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AppStanceSDK
+import AdServices
+import AdSupport
+@_exported import AppStanceSDK
+import AppTrackingTransparency
+import Foundation
+import StoreKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers final public class AppStance {
+  @objc public static func initialize(apiKey: Swift.String, enableStoreKitPurchaseMonitor: Swift.Bool = true, customUserID: Swift.String? = nil, fBAnonymousID: Swift.String? = nil, revenueCatUserID: Swift.String? = nil, debugLogs: Swift.Bool = false)
+  @objc public static func trackExternalRevenueEvent(_ eventName: Swift.String, amount: Swift.Double, currency: Swift.String)
+  @objc public static func trackNonRevenueEventOnce(_ eventName: Swift.String)
+  @objc public static func getAppStanceUserID() -> Swift.String
+  @objc public static func getRemoteConfigJSONString() -> Swift.String
+  @objc deinit
+}
