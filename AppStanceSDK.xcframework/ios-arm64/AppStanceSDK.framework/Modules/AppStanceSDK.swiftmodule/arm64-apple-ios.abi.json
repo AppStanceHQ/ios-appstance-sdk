@@ -425,7 +425,7 @@
       "kind": "StringLiteral",
       "offset": 262,
       "length": 7,
-      "value": "\"0.6.3\""
+      "value": "\"0.6.4\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Constants.swift",
