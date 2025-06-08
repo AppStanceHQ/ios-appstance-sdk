@@ -1,4 +1,9 @@
-
+//
+//  AppStanceSDK.h
+//  AppStanceSDK
+//
+//  Created by Res Dev on 6/7/25.
+//
 
 #import <Foundation/Foundation.h>
 

@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name             = "AppStanceSDK"
-  s.version          = "0.6.4"
+  s.version          = "0.6.5"
   s.summary          = "iOS library for Apple Search Ads attribution and ROAS measurement"
-  s.description      = "AppStanceSDK MMp SDK module"
+  s.description      = "AppStanceSDK Apple Ads MMP SDK module"
   s.homepage         = "https://github.com/AppStanceHQ/ios-appstance-sdk"
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "AppStance HQ" => "appstancehq@gmail.com" }

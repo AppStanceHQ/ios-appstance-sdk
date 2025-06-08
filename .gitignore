@@ -8,8 +8,8 @@ temp.txt
 info.txt
 
 AppStanceSDK.xcodeproj
-AppStanceSDK/
-
+/AppStanceSDK/
+/AppStanceSDK
 AppStanceSDKTests/
 
 z-private/
@@ -36,6 +36,11 @@ Library/
 .Trashes
 ehthumbs.db
 Thumbs.db
+AppStanceSDK/AppStanceSDKPurchaseEvent.swift
+
+
 
 
 build_xcframework.sh
+
+

@@ -4,3 +4,8 @@ framework module AppStanceSDK {
 
   module * { export * }
 }
+
+module AppStanceSDK.Swift {
+  header "AppStanceSDK-Swift.h"
+  requires objc
+}
