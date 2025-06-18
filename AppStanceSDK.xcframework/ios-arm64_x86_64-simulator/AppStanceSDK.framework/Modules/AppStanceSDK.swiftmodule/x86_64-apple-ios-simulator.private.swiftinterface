@@ -9,6 +9,7 @@ import AppTrackingTransparency
 import Foundation
 import StoreKit
 import Swift
+import SystemConfiguration
 import UIKit
 import _Concurrency
 import _StringProcessing
@@ -19,5 +20,6 @@ import _SwiftConcurrencyShims
   @objc public static func trackNonRevenueEventOnce(eventName: Swift.String) -> Swift.String
   @objc public static func getAppStanceUserID() -> Swift.String
   @objc public static func getRemoteConfigJSONString(refresh: Swift.Bool = false) -> Swift.String
+  public static func getPurchaseMonitoringStatus() -> [Swift.String : Any]
   @objc deinit
 }

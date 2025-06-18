@@ -6,13 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "StoreKit",
-        "printedName": "StoreKit",
-        "declKind": "Import",
-        "moduleName": "AppStanceSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -268,6 +261,42 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPurchaseMonitoringStatus",
+            "printedName": "getPurchaseMonitoringStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AppStanceSDK0aB0C27getPurchaseMonitoringStatusSDySSypGyFZ",
+            "mangledName": "$s12AppStanceSDK0aB0C27getPurchaseMonitoringStatusSDySSypGyFZ",
+            "moduleName": "AppStanceSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -398,8 +427,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
         "declKind": "Import",
         "moduleName": "AppStanceSDK"
       },
@@ -423,39 +452,46 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "AppStanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "AppStanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppStanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "AppStanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppStanceSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppStanceSDK"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/PurchaseEventsLegacy.swift",
-      "kind": "StringLiteral",
-      "offset": 252,
-      "length": 37,
-      "value": "\"com.appstance.legacyPurchaseTracker\""
-    },
-    {
-      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/PurchaseEventsLegacy.swift",
-      "kind": "IntegerLiteral",
-      "offset": 409,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/PurchaseEventsLegacy.swift",
-      "kind": "BooleanLiteral",
-      "offset": 449,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/PurchaseEventsLegacy.swift",
-      "kind": "BooleanLiteral",
-      "offset": 486,
-      "length": 5,
-      "value": "false"
-    },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/AAAttributionManager.swift",
       "kind": "IntegerLiteral",
@@ -515,7 +551,7 @@
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/AppStanceSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 20144,
+      "offset": 20029,
       "length": 5,
       "value": "false"
     },
@@ -531,7 +567,7 @@
       "kind": "StringLiteral",
       "offset": 98,
       "length": 7,
-      "value": "\"0.6.8\""
+      "value": "\"0.6.9\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Constants.swift",
@@ -578,14 +614,14 @@
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Helpers.swift",
       "kind": "IntegerLiteral",
-      "offset": 8481,
+      "offset": 7896,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Helpers.swift",
       "kind": "FloatLiteral",
-      "offset": 8510,
+      "offset": 7925,
       "length": 3,
       "value": "1.0"
     },
@@ -627,156 +663,135 @@
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/PurchaseEvents.swift",
       "kind": "StringLiteral",
-      "offset": 210,
+      "offset": 205,
       "length": 31,
       "value": "\"com.appstance.purchaseTracker\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/PurchaseEvents.swift",
       "kind": "IntegerLiteral",
-      "offset": 419,
+      "offset": 400,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/PurchaseEvents.swift",
       "kind": "BooleanLiteral",
-      "offset": 459,
+      "offset": 440,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/PurchaseEventsLegacy.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 37,
+      "value": "\"com.appstance.legacyPurchaseTracker\""
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/PurchaseEventsLegacy.swift",
+      "kind": "IntegerLiteral",
+      "offset": 399,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/PurchaseEventsLegacy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 433,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 128,
+      "offset": 127,
       "length": 19,
       "value": "\"com.appstance.sdk\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 347,
+      "offset": 296,
       "length": 105,
       "value": "\"Failed to initialize UserDefaults with suite name: \""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 411,
+      "offset": 360,
       "length": 1,
       "value": "\". Falling back to standard UserDefaults.\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 629,
+      "offset": 578,
       "length": 22,
       "value": "\"AppStanceSDK_api_key\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 685,
+      "offset": 634,
       "length": 27,
       "value": "\"AppStanceSDK_first_launch\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 755,
+      "offset": 704,
       "length": 37,
       "value": "\"AppStanceSDK_first_launch_timestamp\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 823,
+      "offset": 772,
       "length": 27,
       "value": "\"AppStanceSDK_user_uuid_v7\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 889,
+      "offset": 838,
       "length": 32,
       "value": "\"AppStanceSDK_install_timestamp\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 962,
+      "offset": 911,
       "length": 34,
       "value": "\"AppStanceSDK_sdk_initializations\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 1033,
+      "offset": 982,
       "length": 30,
       "value": "\"AppStanceSDK_purchase_events\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 1109,
+      "offset": 1058,
       "length": 41,
       "value": "\"AppStanceSDK_tracked_non_revenue_events\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 1193,
+      "offset": 1142,
       "length": 22,
       "value": "\"AppStanceSDK_f_i_o_d\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 1259,
-      "length": 22,
-      "value": "\"AppStanceSDK_f_i_o_a\""
-    },
-    {
-      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1319,
+      "offset": 1203,
       "length": 32,
       "value": "\"AppStanceSDK_remote_sdk_config\""
-    },
-    {
-      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1470,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14083,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16654,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17779,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 19702,
-      "length": 5,
-      "value": "false"
     }
   ]
 }
