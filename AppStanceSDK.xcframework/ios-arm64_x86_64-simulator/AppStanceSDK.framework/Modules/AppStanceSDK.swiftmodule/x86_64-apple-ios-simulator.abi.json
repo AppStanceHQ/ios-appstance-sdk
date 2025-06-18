@@ -436,6 +436,27 @@
       "value": "\"com.appstance.legacyPurchaseTracker\""
     },
     {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/PurchaseEventsLegacy.swift",
+      "kind": "IntegerLiteral",
+      "offset": 409,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/PurchaseEventsLegacy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 449,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/PurchaseEventsLegacy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 486,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/AAAttributionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 199,
@@ -510,7 +531,7 @@
       "kind": "StringLiteral",
       "offset": 98,
       "length": 7,
-      "value": "\"0.6.7\""
+      "value": "\"0.6.8\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/Constants.swift",
@@ -611,142 +632,149 @@
       "value": "\"com.appstance.purchaseTracker\""
     },
     {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/PurchaseEvents.swift",
+      "kind": "IntegerLiteral",
+      "offset": 419,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/PurchaseEvents.swift",
+      "kind": "BooleanLiteral",
+      "offset": 459,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 127,
+      "offset": 128,
       "length": 19,
       "value": "\"com.appstance.sdk\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 434,
+      "offset": 347,
       "length": 105,
       "value": "\"Failed to initialize UserDefaults with suite name: \""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 498,
+      "offset": 411,
       "length": 1,
       "value": "\". Falling back to standard UserDefaults.\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 723,
-      "length": 30,
-      "value": "\"com.appstance.unifiedStorage\""
-    },
-    {
-      "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 856,
+      "offset": 629,
       "length": 22,
       "value": "\"AppStanceSDK_api_key\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 912,
+      "offset": 685,
       "length": 27,
       "value": "\"AppStanceSDK_first_launch\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 982,
+      "offset": 755,
       "length": 37,
       "value": "\"AppStanceSDK_first_launch_timestamp\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 1051,
+      "offset": 823,
       "length": 27,
       "value": "\"AppStanceSDK_user_uuid_v7\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 1117,
+      "offset": 889,
       "length": 32,
       "value": "\"AppStanceSDK_install_timestamp\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 1190,
+      "offset": 962,
       "length": 34,
       "value": "\"AppStanceSDK_sdk_initializations\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 1262,
+      "offset": 1033,
       "length": 30,
       "value": "\"AppStanceSDK_purchase_events\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 1342,
+      "offset": 1109,
       "length": 41,
       "value": "\"AppStanceSDK_tracked_non_revenue_events\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 1436,
+      "offset": 1193,
       "length": 22,
       "value": "\"AppStanceSDK_f_i_o_d\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 1503,
+      "offset": 1259,
       "length": 22,
       "value": "\"AppStanceSDK_f_i_o_a\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "StringLiteral",
-      "offset": 1564,
+      "offset": 1319,
       "length": 32,
       "value": "\"AppStanceSDK_remote_sdk_config\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "BooleanLiteral",
-      "offset": 1726,
+      "offset": 1470,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "BooleanLiteral",
-      "offset": 10582,
+      "offset": 14083,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "BooleanLiteral",
-      "offset": 12773,
+      "offset": 16654,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "BooleanLiteral",
-      "offset": 13755,
+      "offset": 17779,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/ios-appstance-sdk\/AppStanceSDK\/UnifiedStorage.swift",
       "kind": "BooleanLiteral",
-      "offset": 14642,
+      "offset": 19702,
       "length": 5,
       "value": "false"
     }
