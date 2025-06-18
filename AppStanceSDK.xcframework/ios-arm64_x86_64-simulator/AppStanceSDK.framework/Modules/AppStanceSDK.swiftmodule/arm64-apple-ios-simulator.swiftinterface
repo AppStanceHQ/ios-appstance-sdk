@@ -14,10 +14,10 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class AppStance : ObjectiveC.NSObject {
-  @objc public static func initialize(apiKey: Swift.String, enableStoreKitPurchaseMonitor: Swift.Bool = true, customUserID: Swift.String? = nil, fBAnonymousID: Swift.String? = nil, revenueCatUserID: Swift.String? = nil, debugLogs: Swift.Bool = false)
-  @objc public static func trackExternalRevenueEvent(_ eventName: Swift.String, amount: Swift.Double, currency: Swift.String)
-  @objc public static func trackNonRevenueEventOnce(_ eventName: Swift.String)
+  @objc public static func initialize(apiKey: Swift.String, enableStoreKitPurchaseMonitor: Swift.Bool = true, customUserID: Swift.String? = nil, fBAnonymousID: Swift.String? = nil, revenueCatUserID: Swift.String? = nil, debugLogs: Swift.Bool = false) -> Swift.String
+  @objc public static func trackCustomRevenueEvent(eventName: Swift.String, amount: Swift.Double, currency: Swift.String) -> Swift.String
+  @objc public static func trackNonRevenueEventOnce(eventName: Swift.String) -> Swift.String
   @objc public static func getAppStanceUserID() -> Swift.String
-  @objc public static func getRemoteConfigJSONString() -> Swift.String
+  @objc public static func getRemoteConfigJSONString(refresh: Swift.Bool = false) -> Swift.String
   @objc deinit
 }

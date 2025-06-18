@@ -327,14 +327,14 @@ SWIFT_CLASS("_TtC12AppStanceSDK9AppStance")
 ///
 /// \param debugLogs If <code>true</code>, enables verbose debug logging. Default is <code>false</code>.
 ///
-+ (void)initializeWithApiKey:(NSString * _Nonnull)apiKey enableStoreKitPurchaseMonitor:(BOOL)enableStoreKitPurchaseMonitor customUserID:(NSString * _Nullable)customUserID fBAnonymousID:(NSString * _Nullable)fBAnonymousID revenueCatUserID:(NSString * _Nullable)revenueCatUserID debugLogs:(BOOL)debugLogs;
++ (NSString * _Nonnull)initializeWithApiKey:(NSString * _Nonnull)apiKey enableStoreKitPurchaseMonitor:(BOOL)enableStoreKitPurchaseMonitor customUserID:(NSString * _Nullable)customUserID fBAnonymousID:(NSString * _Nullable)fBAnonymousID revenueCatUserID:(NSString * _Nullable)revenueCatUserID debugLogs:(BOOL)debugLogs SWIFT_WARN_UNUSED_RESULT;
 /// Tracks a custom external revenue event (e.g., web purchases outside of app store).
 /// Do not use this for in-app purchases or App Store transactions. They are automatically tracked by the SDK.
 /// Sends a revenue event to the backend analytics system. The event is only sent if the SDK is initialized,
 /// the device is supported, and the SDK is not in opt-out mode.
 /// Example usage:
 /// \code
-/// AppStanceSDK.trackExternalRevenueEvent("purchase_premium", amount: 9.99, currency: "USD")
+/// AppStanceSDK.trackCustomRevenueEvent(eventName: "purchase_premium", amount: 9.99, currency: "USD")
 ///
 /// \endcode\param eventName The name of the revenue event.
 ///
@@ -342,7 +342,7 @@ SWIFT_CLASS("_TtC12AppStanceSDK9AppStance")
 ///
 /// \param currency The currency code (e.g., “USD”).
 ///
-+ (void)trackExternalRevenueEvent:(NSString * _Nonnull)eventName amount:(double)amount currency:(NSString * _Nonnull)currency;
++ (NSString * _Nonnull)trackCustomRevenueEventWithEventName:(NSString * _Nonnull)eventName amount:(double)amount currency:(NSString * _Nonnull)currency SWIFT_WARN_UNUSED_RESULT;
 /// Tracks a non-revenue event only once per event name per device.
 /// This function sends a custom non-revenue event to the backend analytics system.
 /// The event is only tracked the first time it is called with a given event name on a device;
@@ -368,7 +368,7 @@ SWIFT_CLASS("_TtC12AppStanceSDK9AppStance")
 ///
 /// \endcode\param eventName The name of the non-revenue event to track.
 ///
-+ (void)trackNonRevenueEventOnce:(NSString * _Nonnull)eventName;
++ (NSString * _Nonnull)trackNonRevenueEventOnceWithEventName:(NSString * _Nonnull)eventName SWIFT_WARN_UNUSED_RESULT;
 /// Returns the unique AppStance user ID for the current device.
 /// This function retrieves the user identifier generated and managed by the AppStance SDK.
 /// It returns an empty string in the following cases:
@@ -412,7 +412,7 @@ SWIFT_CLASS("_TtC12AppStanceSDK9AppStance")
 /// \endcode
 /// returns:
 /// A pretty-printed JSON string representing the remote configuration, or <code>{}</code> if unavailable or on failure.
-+ (NSString * _Nonnull)getRemoteConfigJSONString SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)getRemoteConfigJSONStringWithRefresh:(BOOL)refresh SWIFT_WARN_UNUSED_RESULT;
 @end
 
 #endif
