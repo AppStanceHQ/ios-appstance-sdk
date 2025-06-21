@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AppStanceSDK-Swift.h</key>
 		<data>
-		GlQ+XxG21lIRt31Z9v4ceIswc/8=
+		DDB85aIfMqj8uj4z5dMBmVY2H8k=
 		</data>
 		<key>Headers/AppStanceSDK.h</key>
 		<data>
@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/AppStanceSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		gP/1IGWc51LhMs1b6TCDeckiREw=
+		mSAvfE5CjCEpwD/HSn0dZRaHnak=
 		</data>
 		<key>Modules/AppStanceSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FiNKIsFQ9Qb9AQg6HnyIFAmyPSw=
+		Hkop9BYBY4aGsvo0pAIPJtJqD5s=
 		</data>
 		<key>Modules/AppStanceSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		kHbApdMf373pwY+7pzGpWgiR3zQ=
+		y//7OZSq8MsA+WHZjGdHGnvoTwg=
 		</data>
 		<key>Modules/AppStanceSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FiNKIsFQ9Qb9AQg6HnyIFAmyPSw=
+		Hkop9BYBY4aGsvo0pAIPJtJqD5s=
 		</data>
 		<key>Modules/AppStanceSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kJn9nWNQZ3A01ld3LAq10tr2aX4=
+		jCaS5NdqU251sYfWV+W97Ljfgkk=
 		</data>
 		<key>Modules/AppStanceSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		gP/1IGWc51LhMs1b6TCDeckiREw=
+		mSAvfE5CjCEpwD/HSn0dZRaHnak=
 		</data>
 		<key>Modules/AppStanceSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		YZoqBuJzVprEhoZH1c6gAbFMJlE=
+		r2WGcSjFYChbNrEvpF4dObtXoxI=
 		</data>
 		<key>Modules/AppStanceSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		I535/y1x3MhrgF4MyfzLjmgqLiY=
+		dw2Ni6rkwD6Id4PAH6TXM6vCI64=
 		</data>
 		<key>Modules/AppStanceSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		YZoqBuJzVprEhoZH1c6gAbFMJlE=
+		r2WGcSjFYChbNrEvpF4dObtXoxI=
 		</data>
 		<key>Modules/AppStanceSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		A5oqjCERWNmU5x8nmSScZjdQjzI=
+		Z6s12TyBTKfpnXGfrWKX6arDclY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			23eCEzJnIbXC0mWkkNsDX0jTUYK6vCeDX1heGq5WrC8=
+			BU1/4LxMWPeW98EJ0T0dv38yZeHvEg2Q4icVV0uy0J0=
 			</data>
 		</dict>
 		<key>Headers/AppStanceSDK.h</key>
@@ -85,70 +85,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R3Ixi3NKGehW3jk45QCcAwPpnJPUxfrZaLWPSz6hixk=
+			ZiaWR6e6cicjvuPGpIApX9uLmE06KKZ7Nkshl01xYSk=
 			</data>
 		</dict>
 		<key>Modules/AppStanceSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			swS2ha0ZtrLlKMRXwZQsT6moQw0oYHjTNYcDpViqOww=
+			aLk34LJrMrvRc1BLC69umxGkMwHZhi9iMQfwF6b11T4=
 			</data>
 		</dict>
 		<key>Modules/AppStanceSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H+iII/vTcVSRFkTY0aF84Mq+c8ZHqi34KH7SDb5kVQY=
+			8NahqMpYSBZlmaMu2KTbKoNy6EdJjdPtvuTlLF3rq+Q=
 			</data>
 		</dict>
 		<key>Modules/AppStanceSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			swS2ha0ZtrLlKMRXwZQsT6moQw0oYHjTNYcDpViqOww=
+			aLk34LJrMrvRc1BLC69umxGkMwHZhi9iMQfwF6b11T4=
 			</data>
 		</dict>
 		<key>Modules/AppStanceSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vjxKVAXp0awv3rcOeTSJFB8I5Ni8vhKrJj4tWEltHZQ=
+			tOc5h22qoY2NdOqAB0sq3sKvtDVM+daiFtDFtYgvaJw=
 			</data>
 		</dict>
 		<key>Modules/AppStanceSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R3Ixi3NKGehW3jk45QCcAwPpnJPUxfrZaLWPSz6hixk=
+			ZiaWR6e6cicjvuPGpIApX9uLmE06KKZ7Nkshl01xYSk=
 			</data>
 		</dict>
 		<key>Modules/AppStanceSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pOIc9Rv+BBxm1RfIQsmZIS3/PaA5LLflwuJYClKXiO0=
+			cxY1+0oCYNEBvBq4LbVdd8YHBfY7DcKx/xQCXr4k2XA=
 			</data>
 		</dict>
 		<key>Modules/AppStanceSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Si8bBobCGDaH6NJugZoR4sgKfKP4ELXByGirUXXXvs=
+			VbKWFJ5ONqZY5uTuqSfVrdJ0qQBJ+5RomJ7unKrhcBg=
 			</data>
 		</dict>
 		<key>Modules/AppStanceSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pOIc9Rv+BBxm1RfIQsmZIS3/PaA5LLflwuJYClKXiO0=
+			cxY1+0oCYNEBvBq4LbVdd8YHBfY7DcKx/xQCXr4k2XA=
 			</data>
 		</dict>
 		<key>Modules/AppStanceSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y/eJd1H+dp7dCp3nvAJNgvQNCCGSyC4UwHHgPDIlddk=
+			WM8yfdNKHYNXPmVDnRqlrmPFPp4YRsNr237L6hlnhs4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

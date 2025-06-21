@@ -334,7 +334,7 @@ SWIFT_CLASS("_TtC12AppStanceSDK9AppStance")
 /// the device is supported, and the SDK is not in opt-out mode.
 /// Example usage:
 /// \code
-/// AppStanceSDK.trackCustomRevenueEvent(eventName: "purchase_premium", amount: 9.99, currency: "USD")
+/// AppStanceSDK.logCustomRevenueEvent(eventName: "purchase_premium", amount: 9.99, currency: "USD")
 ///
 /// \endcode\param eventName The name of the revenue event.
 ///
@@ -342,7 +342,7 @@ SWIFT_CLASS("_TtC12AppStanceSDK9AppStance")
 ///
 /// \param currency The currency code (e.g., “USD”).
 ///
-+ (NSString * _Nonnull)trackCustomRevenueEventWithEventName:(NSString * _Nonnull)eventName amount:(double)amount currency:(NSString * _Nonnull)currency SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)logCustomRevenueEventWithEventName:(NSString * _Nonnull)eventName amount:(double)amount currency:(NSString * _Nonnull)currency SWIFT_WARN_UNUSED_RESULT;
 /// Tracks a non-revenue event only once per event name per device.
 /// This function sends a custom non-revenue event to the backend analytics system.
 /// The event is only tracked the first time it is called with a given event name on a device;
@@ -364,11 +364,11 @@ SWIFT_CLASS("_TtC12AppStanceSDK9AppStance")
 /// </ul>
 /// Example usage:
 /// \code
-/// AppStanceSDK.trackNonRevenueEventOnce("tutorial_completed")
+/// AppStanceSDK.logNonRevenueEventOnce("tutorial_completed")
 ///
 /// \endcode\param eventName The name of the non-revenue event to track.
 ///
-+ (NSString * _Nonnull)trackNonRevenueEventOnceWithEventName:(NSString * _Nonnull)eventName SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)logNonRevenueEventOnceWithEventName:(NSString * _Nonnull)eventName SWIFT_WARN_UNUSED_RESULT;
 /// Returns the unique AppStance user ID for the current device.
 /// This function retrieves the user identifier generated and managed by the AppStance SDK.
 /// It returns an empty string in the following cases:
