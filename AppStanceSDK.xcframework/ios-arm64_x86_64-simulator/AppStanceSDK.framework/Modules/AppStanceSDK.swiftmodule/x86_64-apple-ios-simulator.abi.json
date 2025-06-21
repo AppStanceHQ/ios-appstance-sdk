@@ -522,7 +522,7 @@
     {
       "filePath": "\/Users\/resdev\/active-dev\/appstance-sdk\/AppStanceSDK\/AppStanceSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 20063,
+      "offset": 20056,
       "length": 5,
       "value": "false"
     },
@@ -538,7 +538,7 @@
       "kind": "StringLiteral",
       "offset": 98,
       "length": 7,
-      "value": "\"0.7.0\""
+      "value": "\"0.7.1\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/appstance-sdk\/AppStanceSDK\/Constants.swift",
@@ -654,22 +654,15 @@
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/appstance-sdk\/AppStanceSDK\/PurchaseEvents.swift",
-      "kind": "BooleanLiteral",
-      "offset": 607,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/resdev\/active-dev\/appstance-sdk\/AppStanceSDK\/PurchaseEvents.swift",
       "kind": "StringLiteral",
-      "offset": 8772,
+      "offset": 8832,
       "length": 20,
       "value": "\"startSimplePolling\""
     },
     {
       "filePath": "\/Users\/resdev\/active-dev\/appstance-sdk\/AppStanceSDK\/PurchaseEvents.swift",
       "kind": "StringLiteral",
-      "offset": 11257,
+      "offset": 11317,
       "length": 9,
       "value": "\"unknown\""
     },
