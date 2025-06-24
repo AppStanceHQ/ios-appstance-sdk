@@ -2,50 +2,27 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <!-- APIs your SDK accesses -->
     <key>NSPrivacyAccessedAPITypes</key>
     <array>
-        <!-- UserDefaults (custom or standard) -->
         <dict>
             <key>NSPrivacyAccessedAPIType</key>
-            <string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+            <string>UserDefaults</string>
             <key>NSPrivacyAccessedAPITypeReasons</key>
             <array>
                 <string>CA92.1</string>
             </array>
         </dict>
-        <!-- Device info APIs -->
         <dict>
             <key>NSPrivacyAccessedAPIType</key>
-            <string>NSPrivacyAccessedAPICategoryDeviceInfo</string>
+            <string>FileTimestamp</string>
             <key>NSPrivacyAccessedAPITypeReasons</key>
             <array>
-                <string>CA92.1</string>
-            </array>
-        </dict>
-        <!-- StoreKit (for purchases) -->
-        <dict>
-            <key>NSPrivacyAccessedAPIType</key>
-            <string>NSPrivacyAccessedAPICategoryStoreKit</string>
-            <key>NSPrivacyAccessedAPITypeReasons</key>
-            <array>
-                <string>CA92.1</string>
-            </array>
-        </dict>
-        <!-- Apple Search Ads API -->
-        <dict>
-            <key>NSPrivacyAccessedAPIType</key>
-            <string>NSPrivacyAccessedAPICategoryAdAttribution</string>
-            <key>NSPrivacyAccessedAPITypeReasons</key>
-            <array>
-                <string>CA92.1</string>
+                <string>C617.1</string>
             </array>
         </dict>
     </array>
-    <!-- Data that you collect via the APIs above -->
     <key>NSPrivacyCollectedDataTypes</key>
     <array>
-        <!-- Purchase History -->
         <dict>
             <key>NSPrivacyCollectedDataType</key>
             <string>NSPrivacyCollectedDataTypePurchaseHistory</string>
@@ -58,7 +35,6 @@
                 <string>NSPrivacyCollectedDataTypePurposeAnalytics</string>
             </array>
         </dict>
-        <!-- User ID (anonymous, not linked) -->
         <dict>
             <key>NSPrivacyCollectedDataType</key>
             <string>NSPrivacyCollectedDataTypeUserID</string>
@@ -71,7 +47,6 @@
                 <string>NSPrivacyCollectedDataTypePurposeAnalytics</string>
             </array>
         </dict>
-        <!-- Device Info -->
         <dict>
             <key>NSPrivacyCollectedDataType</key>
             <string>NSPrivacyCollectedDataTypeDeviceID</string>
@@ -84,7 +59,6 @@
                 <string>NSPrivacyCollectedDataTypePurposeAnalytics</string>
             </array>
         </dict>
-        <!-- Other Data (custom events) -->
         <dict>
             <key>NSPrivacyCollectedDataType</key>
             <string>NSPrivacyCollectedDataTypeOtherData</string>
