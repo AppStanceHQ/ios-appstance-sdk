@@ -56,7 +56,7 @@ The `initialize` method sets up the AppStance SDK with your API key and configur
 #### Example Usage
 
 
-```
+``` swift
 // Basic initialization
 AppStance.initialize(apiKey: "your-api-key-here")
 
