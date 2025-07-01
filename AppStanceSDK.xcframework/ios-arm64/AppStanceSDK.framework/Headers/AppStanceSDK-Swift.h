@@ -310,7 +310,7 @@ SWIFT_CLASS("_TtC12AppStanceSDK9AppStance")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 /// Initializes the AppStance SDK.
 /// This method must be called before using any other SDK functionality. It sets up the SDK with your API key and optional parameters.
-/// Call this method typically in your app’s launch sequence (e.g., in <code>application(_:didFinishLaunchingWithOptions:)</code>).
+/// Call this method typically in your app’s launch sequence .
 /// important:
 /// If your app displays the App Tracking Transparency (ATT) prompt, call this method <em>after</em> you receive the ATT prompt result to ensure accurate attribution and analytics.
 /// note:
@@ -318,6 +318,10 @@ SWIFT_CLASS("_TtC12AppStanceSDK9AppStance")
 /// \param apiKey Your AppStance API key. This is required.
 ///
 /// \param enableStoreKitPurchaseMonitor If <code>true</code>, the SDK will automatically monitor StoreKit purchase events. Default is <code>true</code>.
+///
+/// \param enableSKANAttribution If <code>true</code>, enables SKAdNetwork (SKAN) and AdAttributionKit for comprehensive iOS attribution tracking. Default is <code>false</code>.
+///
+/// \param optOut If <code>true</code>, the SDK will not track any events or analytics for a device. Default is <code>false</code>.
 ///
 /// \param customUserID An optional custom user identifier to associate with analytics events.
 ///
@@ -327,7 +331,7 @@ SWIFT_CLASS("_TtC12AppStanceSDK9AppStance")
 ///
 /// \param debugLogs If <code>true</code>, enables verbose debug logging. Default is <code>false</code>.
 ///
-+ (NSString * _Nonnull)initializeWithApiKey:(NSString * _Nonnull)apiKey enableStoreKitPurchaseMonitor:(BOOL)enableStoreKitPurchaseMonitor customUserID:(NSString * _Nullable)customUserID fBAnonymousID:(NSString * _Nullable)fBAnonymousID revenueCatUserID:(NSString * _Nullable)revenueCatUserID debugLogs:(BOOL)debugLogs SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)initializeWithApiKey:(NSString * _Nonnull)apiKey enableStoreKitPurchaseMonitor:(BOOL)enableStoreKitPurchaseMonitor enableSKANAttribution:(BOOL)enableSKANAttribution optOut:(BOOL)optOut customUserID:(NSString * _Nullable)customUserID fBAnonymousID:(NSString * _Nullable)fBAnonymousID revenueCatUserID:(NSString * _Nullable)revenueCatUserID debugLogs:(BOOL)debugLogs SWIFT_WARN_UNUSED_RESULT;
 /// Tracks a custom external revenue event (e.g., web purchases outside of app store).
 /// Do not use this for in-app purchases or App Store transactions. They are automatically tracked by the SDK.
 /// Sends a revenue event to the backend analytics system. The event is only sent if the SDK is initialized,
@@ -412,7 +416,7 @@ SWIFT_CLASS("_TtC12AppStanceSDK9AppStance")
 /// \endcode
 /// returns:
 /// A pretty-printed JSON string representing the remote configuration, or <code>{}</code> if unavailable or on failure.
-+ (NSString * _Nonnull)getRemoteConfigJSONStringWithRefresh:(BOOL)refresh SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)getRemoteConfigJSONString SWIFT_WARN_UNUSED_RESULT;
 @end
 
 #endif
