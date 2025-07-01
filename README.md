@@ -1,7 +1,5 @@
 # AppStance SDK for Apple Ads attribution
 
-# AppStance SDK
-
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AppStanceHQ/ios-appstance-sdk/blob/main/LICENSE)
 [![SPM Compatible](https://img.shields.io/badge/SPM-compatible-brightgreen.svg)](https://swift.org/package-manager/)
 [![Version](https://img.shields.io/badge/version-0.7.5-blue.svg)](https://github.com/AppStanceHQ/ios-appstance-sdk/releases)
